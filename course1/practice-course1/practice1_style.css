@@ -1,0 +1,50 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin-top: 0;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 700px;
+    width: 90%;
+    color: aqua;
+    background-color: blueviolet;
+    padding: 30px;
+    word-break: break-all;
+    overflow: hidden;
+}
+.container-field{
+    background-color: darkslategray;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-height: 650px;
+    border-style: groove;
+}
+.container-button{
+    background-color: deeppink;
+    float: left;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 1.5%;
+    padding: 3%;
+}
+.main-field{
+    background-color: brown;
+    margin-left: 5%;
+    margin-right: 1.15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-style: groove;
+}
+.back-button{
+    background-color: coral;
+    margin-left: 2%;
+    margin-right: 85%;
+    padding-left:2%;
+    padding-right:2%;
+    border-style: double;
+    border-color: darkblue;
+}

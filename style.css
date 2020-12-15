@@ -1,0 +1,84 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    min-height: 700px;
+    color: aqua;
+    background-color: white;
+    padding: 30px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+.navbar{
+    float: left;
+    height: auto;
+    width: 20%;
+    background-color: rgb(80,80,80);
+    min-height: 650px;
+    border: 1px solid black;
+}
+.navbar-list{
+    background-color: darksalmon;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+.navbar-item{
+    background-color: rgb(80,80,80);
+    color: white;
+    padding: 4% 0 4% 2%;
+    border-bottom: 2px groove gray;
+    text-decoration: none;
+}
+.navbar-item:hover{
+    background: white;
+    color:black;
+}
+.wrapper{
+    float: right;
+    background-color: white;
+    width: 78%;
+    min-height: 700px;
+    color: rgb(80,80,80);    
+}
+.wrapper p{
+    margin: 0;
+    font-size: 2.3vw;
+    color: black;
+}
+.wrapper h3{
+    margin-right: 3%;
+    color: black;
+}
+.main-field{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(80,80,80);
+    padding: 1% 0 1% 0;
+    border: 1px solid black;
+}
+.main-button{
+    background-color: rgb(80,80,80);
+    font-size: 2vw;
+    color: white;
+    margin-left: 2%;
+    width: 10%;
+    border-right: 1px solid whitesmoke;
+}
+footer{
+    border-top: 1px solid rgb(100,100,100);
+}
+.logo{
+    float: right;
+    margin-right: 3%;
+    height: 45px;
+    width: 90px;
+}
