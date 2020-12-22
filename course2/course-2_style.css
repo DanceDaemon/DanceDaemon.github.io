@@ -108,3 +108,6 @@ footer{
     height: 35px;
     width: 70px;
 }
+a{
+    text-decoration: none;
+}
