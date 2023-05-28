@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css" type="text/css">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
-    <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(87167946, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/87167946" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
-        <div class='main-field'>
-            <div class="main-button">
-                <left>Главная</left>
-            </div>
-        </div>
-    </header>
-    <div class="container">
-        <div class="navbar">
-            <ul class="navbar-list">
-                <a href="https://DanceDaemon.github.io/course1/course-1.html"><li class="navbar-item">1 КУРС</li></a>
-                <a href="https://DanceDaemon.github.io/course2/course-2.html"><li class="navbar-item">2 КУРС</li></a>
-                <a href="#"><li class="navbar-item">3 КУРС</li></a>
-                <a href="#"><li class="navbar-item">4 КУРС</li></a>
-                <a href="#"><li class="navbar-item">Практика</li></a>
+        <nav>
+            <ul class="breadcrumb">
+                <li class="active">
+                    <h3>Главная</h3>
+                </li>
             </ul>
-        </div>
-        <div class="wrapper">
-            <p>Добро пожаловать!</p>
-            <h3>
-                Я студент РГПУ им. А.И.Герцена. Меня зовут Савостин Евгений Александрович.
-                Я родился в городе Брянске, где учился в МБОУ СОШ №67 до поступления.
-                После школы я поступил в Череповецкое Высшее Военное Инженерное
-                Ордена Жукова Училище Радиоэлектроники (длинно, да?).
-                После отчисления оттуда я допрошел военную службу по призыву и поступил в данный ВУЗ.</h3> 
-            <h3>
-                Данный ресурс является
-                моим веб-портфолио. Здесь Вы сможете ознакомиться с 
-                отчетами по всем работам, составленными мной в ходе выполнения
-                курсов на сайте moodle в рамках прохождения дисциплин по профилю
-                "Разработка программного обеспечения" в данном ВУЗе. 
-            </h3>
-            <h3>
-                Слева от читаемого вами текста находится навигационная панель
-                с кнопками, соответствующими номеру курса, на который они 
-                указывают. 
-            </h3>
-            <h3>Спасибо, что посетили данный ресурс.</h3>
-            
-        </div>
+        </nav>
+        
+    </header>
+    <div class="row">
+        <aside class="col-1">
+            <nav>
+                <nav class="nav flex-column">
+                    <a class="nav-link active" href="#"><h5>1 Курс</h5></a>
+                    <a class="nav-link" href="#"><h5>2 Курс</h5></a>
+                    <a class="nav-link" href="#"><h5>3 Курс</h5></a>
+                    <a class="nav-link" href="#"><h5>4 Курс</h5></a>
+                    <a class="nav-link" href="#"><h5>Практика</h5></a>
+                    <a class="nav-link" href="#"><h5>Курсовые</h5></a>
+                </nav>
+            </nav>
+        </aside>
+        <article class="col-8">
+            <div class="mainTextBlock">
+                <h2 class="page-title">Портфолио студента блаблаблабла регалии мои оамм Савостина Е.А.</h2>
+                <h4>
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem
+                    ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+                    ipsum
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem
+                    ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+                    ipsum
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem
+                    ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+                    ipsum
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem
+                    ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+                    ipsum
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem
+                    ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+                    ipsum
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem
+                    ipsum lorem ipsum lorem ipsum lorem ipsum
+                </h4>
+            </div>
+
+        </article>
     </div>
-    <footer>
-        <div>
-            <a href="https://vk.com/the_daemon_of_dance"><img class="logo" src="EA_logo.jpg" alt="Ссылка на страницу создателя"></a>
-        </div>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
